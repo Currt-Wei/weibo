@@ -14,7 +14,7 @@ class StatusesTableSeeder extends Seeder
     public function run()
     {
         //
-        $user_ids=['1','2','3'];
+        $user_ids=['1','2','3','51'];
         $faker = app(Faker\Generator::class);
 
         $statuses=factory(Status::class)->times(100)->make()->each(
